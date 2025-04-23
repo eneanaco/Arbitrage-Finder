@@ -32,30 +32,29 @@ Odds are stored in MongoDB for fast querying and comparison, and arbitrage alert
 ---
 
 ## 🚀 How to Run
-
-1. **Install dependencies:**
-
 ```bash
+1. Install dependencies:
+
 pip install -r requirements.txt
 
-2. **Set up MongoDB**
+2. Set up MongoDB
 
 Add the connection string (assign the connection String to the MONGO_URI variable) under the 'TODO' comments on every python module
 
-3. **Set up Environment Variables for Email:
+3. Set up Environment Variables for Email:
 
 export EMAIL_USER='your_email@gmail.com'
 export EMAIL_PASS='your_app_password'
 
-4. **Run the following scrapers to scrape for football odds:**
+4. Run the following scrapers to scrape for football odds:
 
 python vox365_scraper.py
 python albbet_scraper.py
 
-5. **Run the following module to scan the collected odds for arbitrage opportunities:**
+5. Run the following module to scan the collected odds for arbitrage opportunities:
 
 python arbitrage_scanner.py
-
+```
 
 📌 **TO DO**
 
