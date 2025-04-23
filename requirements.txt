@@ -1,0 +1,6 @@
+selenium
+python-dotenv
+schedule
+pymongo
+fuzz
+rapidfuzz
